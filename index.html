@@ -108,6 +108,9 @@ dialog::backdrop{-webkit-backdrop-filter:blur(5px)}
 <div class="memory-dots" id="memoryDots" aria-label="Elegir un recuerdo"></div>
 <p class="memory-hint">Desliza para seguir recordando ♥</p></div></section>
 
+</main><footer>Hecho con amor, por Carlos <span>♥</span></footer>
+<dialog id="modal" aria-labelledby="modalTitle"><div class="modal-inner"><div class="modal-top"><span class="eyebrow" id="modalLabel"></span><button class="close" id="close" aria-label="Cerrar">×</button></div><h2 id="modalTitle"></h2><p class="hint" id="exampleHint">Texto de ejemplo · Puedes personalizarlo</p><img class="modal-photo" id="modalPhoto" alt=""><p id="modalText"></p><audio id="voice" controls preload="none" hidden></audio><button id="favorite" class="small" aria-pressed="false">♡ Guardar favorita</button><div class="modal-bottom"><button id="prev" aria-label="Anterior">←</button><span id="position"></span><button id="next" aria-label="Siguiente">→</button></div></div></dialog>
+
 <script>
 'use strict';
 /* PERSONALIZA AQUÍ. Rutas relativas, por ejemplo: 'assets/foto-01.jpg'.
